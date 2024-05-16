@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1_basics/enums_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_basics/ownership_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_smart_pointers/lab/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/1_basics/enums_3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1_basics/ownership_1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2_smart_pointers/lab/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
