@@ -1,0 +1,2 @@
+# Box<_T_>
+Een box type plaats een waarde op de heap. In [dit artikel](https://www.baeldung.com/cs/memory-stack-vs-heap) word de heap en stack uitgelegd en waarom je dit in sommige gevallen nodig hebt.
