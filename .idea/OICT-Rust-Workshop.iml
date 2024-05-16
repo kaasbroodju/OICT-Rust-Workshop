@@ -5,9 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/1_basics/enums_3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1_basics/ownership_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2_smart_pointers/lab/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_smart_pointers/option_1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1_basics/enums_3/target" />
       <excludeFolder url="file://$MODULE_DIR$/1_basics/ownership_1/target" />
       <excludeFolder url="file://$MODULE_DIR$/2_smart_pointers/lab/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2_smart_pointers/option_1/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
