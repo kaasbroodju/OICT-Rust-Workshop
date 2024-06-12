@@ -11,6 +11,9 @@ let y = x;
 let z = x; // fout error (meerdere eigenaren)
 3. Wanneer de eigenaar uit de scope valt wordt de waarde _'gedropped'_
 
+![8q8rdy](https://github.com/kaasbroodju/OICT-Rust-Workshop/assets/35763691/d38e7a59-930b-456c-8ef8-e40d87a89e08)
+
+
 ## Wat wordt er bedoelt met _'scope'_ en _'gedropped'_?
 ### Scope
 Een scope houdt in hoe lang een variable leeft.
