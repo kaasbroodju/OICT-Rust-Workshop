@@ -1,5 +1,8 @@
 // define here your structs
-
+struct Node {
+    data: usize,
+    next: Option<Box<Node>>,
+}
 
 fn main() {
     linked_list_lab(&generate_number());
