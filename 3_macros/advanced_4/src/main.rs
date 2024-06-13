@@ -1,3 +1,9 @@
+use advanced_4::is_self_closing_html;
+
 fn main() {
-    println!("Hello, world!");
+    if is_self_closing_html!(<a) {
+        println!("is html :D");
+    } else {
+        println!("is not html :(");
+    }
 }
