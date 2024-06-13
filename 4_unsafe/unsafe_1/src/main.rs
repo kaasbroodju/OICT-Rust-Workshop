@@ -1,30 +1,12 @@
 fn main() {
-    let mut a: i32 = 5;
-    let mut b: i32 = 10;
-
-    // Print the original values
-    println!("Before swap: a = {}, b = {}", a, b);
-
-    // Use an unsafe block to swap the values using raw pointers
-    unsafe {
-        // Create raw pointers to the variables
-        let a_ptr: *mut i32 = &mut a;
-        let b_ptr: *mut i32 = &mut b;
-
-        // Swap the values
-        let temp = *a_ptr;
-        *a_ptr = *b_ptr;
-        *b_ptr = temp;
-    }
-
-    // Print the swapped values
-    println!("After swap: a = {}, b = {}", a, b);
-
-
+    // Creates a pointer to a specific location
     let address = 0x012345usize;
     let r = address as *const i32;
 
+    // uncomment deze lijn, waarom mag ik deze niet bekijken?
     // println!("{}", r);
+    // uncomment deze lijn, waarom mag ik deze niet bekijken?
+    // println!("{}", *r);
 
     let mut num = 5;
 
